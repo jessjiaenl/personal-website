@@ -1,3 +1,9 @@
+:root {
+  --wall: #D7D8D3;
+  --floor: #423930;
+  --text: #716F6C;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--wall);
 }
 
 code {
