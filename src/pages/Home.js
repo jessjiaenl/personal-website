@@ -1,4 +1,39 @@
+import { useEffect } from 'react'
+
 function Home() {
+  var dir = 0;
+  var intID;
+
+  useEffect(() => {
+    const doScroll = (dir) => {
+      window.scrollBy(dir*3,0);
+    }
+
+    const scroll = (e) => {
+      if (e.clientX <= 0.1*window.innerWidth && dir != -1) {
+          dir = -1;      
+          intID = setInterval(doScroll, 10, dir)
+
+
+      } else if (e.clientX >= 0.9*window.innerWidth && dir != 1) {
+          dir = 1;      
+          intID = setInterval(doScroll, 10, dir)
+    
+      } else if (0.1*window.innerWidth < e.clientX && e.clientX < 0.9*window.innerWidth) {
+        dir = 0;
+        // window.scrollTo(?,0);
+        clearInterval(intID);
+      }
+
+    }
+
+    // run when mounted Home
+    window.addEventListener("mousemove", scroll);
+
+    // run when unmount Home, clear event listener
+    return () => { window.removeEventListener("mousemove", scroll); };
+  }, [])
+
   return (
     <>
       {/* floor */}
@@ -26,6 +61,7 @@ function Home() {
                     top: "20vh", 
                     left:1500}}>About me</h1>
       </div>
+      {/* bench */}
     </>
   );
 }
