@@ -1,22 +1,24 @@
-import { useRef} from "react";
-
-// import gsap from "gsap";
-// import { useGSAP } from "@gsap/react";
+import { motion } from "framer-motion";
 
 function Reel() {
-  // const reel = useRef();
+  const floatingAnimation = {
+    y: [0, -40, 0],  // Y-axis movement
+    transition:{
+      repeat: Infinity,
+      repeatType: "mirror",
+      duration: 3,
+      ease: "easeInOut"}
+  };
 
-  // useGSAP(() => {
-  //   gsap.to(reel.current, {x:300});
-  // });
-  
   return (
-    <>
     <a href="/resume">
-      <img src={process.env.PUBLIC_URL + "/assets/reel.svg"}
-        style={{height:"15vh", position:"absolute", top:"38vh", left:4825}}/>
+      <motion.img src={process.env.PUBLIC_URL + "/assets/reel.svg"}
+        style={{height:"15vh", position:"absolute", top:"38vh", left:4825}}
+        whileHover={{scale:1.1}}
+        whileTap={{scale:0.9}}
+        animate={floatingAnimation}
+      />
     </a>
-    </>
   );
 }
 

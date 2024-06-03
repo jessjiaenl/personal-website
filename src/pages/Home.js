@@ -8,6 +8,7 @@ import AboutMe from '../objects/AboutMe';
 import Bench from '../objects/Bench';
 import Pillar from '../objects/Pillar';
 import Reel from '../objects/Reel';
+import DrawingBoard from '../objects/DrawingBoard';
 
 
 function Home() {
@@ -53,6 +54,7 @@ function Home() {
       <Bench/>
       <Pillar left={4000}/>
       <Pillar left={4400}/>
+      <DrawingBoard/>
       <Pillar left={4800}/>
       <Reel/>
       <Fence left={5500}/>
