@@ -1,8 +1,11 @@
+import Switch from '../objects/Switch';
+
 function Bench() {
   return (
-    <div>
+    <div style={{position:"relative", left:2500}}>
       <img src={process.env.PUBLIC_URL + "/assets/bench.svg"}
-        style={{height:"20vh", position:"absolute", top:"75vh", left:2500}}/>
+        style={{height:"20vh", position:"relative", top:"75vh"}}/>
+      <Switch/>
     </div>
   );
 }

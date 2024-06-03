@@ -9,6 +9,9 @@ import Bench from '../objects/Bench';
 import Pillar from '../objects/Pillar';
 import Reel from '../objects/Reel';
 import DrawingBoard from '../objects/DrawingBoard';
+import Switch from '../objects/Switch';
+import HeroBackdrop from '../objects/HeroBackdrop';
+import Mail from '../objects/Mail';
 
 
 function Home() {
@@ -46,6 +49,7 @@ function Home() {
 
   return (
     <>
+      {/* <HeroBackdrop/> */}
       <Floor/>
       <Me/>
       <Hello/>
@@ -54,9 +58,9 @@ function Home() {
       <Bench/>
       <Pillar left={4000}/>
       <Pillar left={4400}/>
-      <DrawingBoard/>
-      <Pillar left={4800}/>
       <Reel/>
+      <Pillar left={4800}/>
+      <Mail/>
       <Fence left={5500}/>
     </>
   );

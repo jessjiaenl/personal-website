@@ -13,7 +13,7 @@ function Reel() {
   return (
     <a href="/resume">
       <motion.img src={process.env.PUBLIC_URL + "/assets/reel.svg"}
-        style={{height:"15vh", position:"absolute", top:"38vh", left:4825}}
+        style={{height:"15vh", position:"absolute", top:"38vh", left:"840vh"}} // 4425
         whileHover={{scale:1.1}}
         whileTap={{scale:0.9}}
         animate={floatingAnimation}
