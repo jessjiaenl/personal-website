@@ -7,7 +7,7 @@ import {
   Link,
   Routes
 } from "react-router-dom";
-import Resume from "./pages/Resume";
+import Games from "./pages/Games";
 import Home from "./pages/Home";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/resume" element={<Resume />}></Route>
+        <Route path="/games" element={<Games />}></Route>
       </Routes>
     </Router>
   );

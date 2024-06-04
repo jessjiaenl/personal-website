@@ -11,14 +11,14 @@ function Reel() {
   };
 
   return (
-    <a href="/resume">
+    <div>
       <motion.img src={process.env.PUBLIC_URL + "/assets/reel.svg"}
         style={{height:"15vh", position:"absolute", top:"15vh", left:"4vh"}} // 4425
         whileHover={{scale:1.1}}
         whileTap={{scale:0.9}}
         animate={floatingAnimation}
       />
-    </a>
+    </div>
   );
 }
 
