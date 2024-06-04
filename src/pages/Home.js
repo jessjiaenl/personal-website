@@ -56,11 +56,9 @@ function Home() {
       <Fence left={1100}/>
       <AboutMe/>
       <Bench/>
-      <Pillar left={4000}/>
-      <Pillar left={4400}/>
-      <Reel/>
-      <Pillar left={4800}/>
-      <Mail/>
+      <Pillar left={4000} objAbove="DrawingBoard"/>
+      <Pillar left={4400} objAbove="Reel"/>
+      <Pillar left={4800} objAbove="Mail"/>
       <Fence left={5500}/>
     </>
   );

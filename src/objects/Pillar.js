@@ -1,8 +1,22 @@
+import Reel from '../objects/Reel';
+import Mail from '../objects/Mail';
+import DrawingBoard from '../objects/DrawingBoard';
+
 function Pillar(props) {
+  let objAbove;
+  if ("Reel".localeCompare(props.objAbove) == 0) {
+    objAbove = <Reel/>;
+  } else if ("Mail".localeCompare(props.objAbove) == 0) {
+    objAbove = <Mail/>;
+  } else if ("DrawingBoard".localeCompare(props.objAbove) == 0) {
+    objAbove = <DrawingBoard/>;
+  }
+
   return (
-    <div>
+    <div style={{position:"absolute", left:props.left}}>
       <img src={process.env.PUBLIC_URL + "/assets/pillar.svg"}
-        style={{height:"40vh", position:"absolute", top:"55vh", left:props.left}}/>
+        style={{height:"40vh", position:"relative", top:"35vh"}}/>
+      {objAbove}
     </div>
   );
 }
