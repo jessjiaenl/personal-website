@@ -6,10 +6,8 @@ function Games() {
     <>
       <Floor/>
       <a href="/">
-        <motion.img src={process.env.PUBLIC_URL + "/assets/exit.svg"}
-          style={{height:"10vh", position:"absolute", top: "5vh", left:"10vh"}}
-          whileHover={{scale:1.1}}
-          whileTap={{scale:1}}/>
+        <img src={process.env.PUBLIC_URL + "/assets/exit.svg"}
+          style={{height:"10vh", position:"absolute", top: "5vh", left:"10vh"}}/>
       </a>
       <a href="https://github.com/jessjiaenl/snowboarding" target="_blank">
         <motion.img src={process.env.PUBLIC_URL + "/assets/snowboarding.svg"}
