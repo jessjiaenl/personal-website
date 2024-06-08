@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Floor from '../objects/Floor';
+import Floor from '../components/Floor';
 
 function Games() {
   return (

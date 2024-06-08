@@ -1,6 +1,6 @@
-import Reel from '../objects/Reel';
-import Mail from '../objects/Mail';
-import DrawingBoard from '../objects/DrawingBoard';
+import Reel from '../components/Reel';
+import Mail from '../components/Mail';
+import DrawingBoard from '../components/DrawingBoard';
 
 function Pillar(props) {
   let objAbove;

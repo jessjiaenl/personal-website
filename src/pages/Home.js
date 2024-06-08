@@ -1,18 +1,13 @@
 import { useEffect } from 'react';
 
-import Me from '../objects/Me';
-import Floor from '../objects/Floor';
-import Hello from '../objects/Hello';
-import Fence from '../objects/Fence';
-import AboutMe from '../objects/AboutMe';
-import Bench from '../objects/Bench';
-import Pillar from '../objects/Pillar';
-import Reel from '../objects/Reel';
-import DrawingBoard from '../objects/DrawingBoard';
-import Switch from '../objects/Switch';
-import HeroBackdrop from '../objects/HeroBackdrop';
-import Mail from '../objects/Mail';
-
+import Me from '../components/Me';
+import Floor from '../components/Floor';
+import Hello from '../components/Hello';
+import Fence from '../components/Fence';
+import AboutMe from '../components/AboutMe';
+import Bench from '../components/Bench';
+import Pillar from '../components/Pillar';
+import HeroBackdrop from '../components/HeroBackdrop';
 
 function Home() {
   var dir = 0;

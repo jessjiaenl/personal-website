@@ -1,4 +1,4 @@
-import Switch from '../objects/Switch';
+import Switch from '../components/Switch';
 
 function Bench() {
   return (
