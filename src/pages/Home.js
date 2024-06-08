@@ -8,6 +8,9 @@ import AboutMe from '../components/AboutMe';
 import Bench from '../components/Bench';
 import Pillar from '../components/Pillar';
 import HeroBackdrop from '../components/HeroBackdrop';
+import FallDet from '../components/fallDet';
+import GPTutor from '../components/GPTutor';
+import Diploma from '../components/Diploma';
 
 function Home() {
   var dir = 0;
@@ -51,6 +54,9 @@ function Home() {
       <Fence left={1100}/>
       <AboutMe/>
       <Bench/>
+      <Diploma/>
+      <FallDet/>
+      <GPTutor/>
       <Pillar left={4000} objAbove="DrawingBoard"/>
       <Pillar left={4400} objAbove="Reel"/>
       <Pillar left={4800} objAbove="Mail"/>
