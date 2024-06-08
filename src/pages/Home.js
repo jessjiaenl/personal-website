@@ -6,6 +6,7 @@ import Hello from '../components/Hello';
 import Fence from '../components/Fence';
 import AboutMe from '../components/AboutMe';
 import Bench from '../components/Bench';
+import MagicCircle from '../components/MagicCircle';
 import Pillar from '../components/Pillar';
 import HeroBackdrop from '../components/HeroBackdrop';
 import FallDet from '../components/fallDet';
@@ -53,14 +54,14 @@ function Home() {
       <Hello left={700}/>
       <Fence left={1100}/>
       <AboutMe left={1500}/>
-      <Bench left={2500}/>
       <Diploma left={2350}/>
-      <FallDet left={3100}/>
-      <GPTutor left={3500}/>
-      <Pillar left={4000} objAbove="DrawingBoard"/>
-      <Pillar left={4400} objAbove="Reel"/>
-      <Pillar left={4800} objAbove="Mail"/>
-      <Fence left={5100}/>
+      <Bench left={2300}/>
+      <FallDet left={3000}/>
+      <GPTutor left={3000}/>
+      <Pillar left={3550} objAbove="Reel"/>
+      <Pillar left={3900} objAbove="Mail"/>
+      <MagicCircle left={4300}/>
+      <Fence left={4500}/>
     </>
   );
 }
