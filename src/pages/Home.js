@@ -49,18 +49,18 @@ function Home() {
     <>
       {/* <HeroBackdrop/> */}
       <Floor/>
-      <Me/>
-      <Hello/>
+      <Me left={260}/>
+      <Hello left={700}/>
       <Fence left={1100}/>
-      <AboutMe/>
-      <Bench/>
-      <Diploma/>
-      <FallDet/>
-      <GPTutor/>
+      <AboutMe left={1500}/>
+      <Bench left={2500}/>
+      <Diploma left={2350}/>
+      <FallDet left={3100}/>
+      <GPTutor left={3500}/>
       <Pillar left={4000} objAbove="DrawingBoard"/>
       <Pillar left={4400} objAbove="Reel"/>
       <Pillar left={4800} objAbove="Mail"/>
-      <Fence left={5500}/>
+      <Fence left={5100}/>
     </>
   );
 }

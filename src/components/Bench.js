@@ -1,8 +1,8 @@
 import Switch from '../components/Switch';
 
-function Bench() {
+function Bench(props) {
   return (
-    <div style={{position:"relative", left:2500}}>
+    <div style={{position:"relative", left:props.left}}>
       <img src={process.env.PUBLIC_URL + "/assets/bench.svg"}
         style={{height:"20vh", position:"relative", top:"75vh"}}/>
       <Switch/>
