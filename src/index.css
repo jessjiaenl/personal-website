@@ -32,12 +32,26 @@ h2 {
 }
 
 table {
+  border-collapse: collapse;
+  border: 2px solid #716F6C;
   font-size: 2vh;
   white-space: nowrap;
   font-family: "Montserrat";
   font-weight: 450;
   line-height: 1.5;
   color: #716F6C;
+}
+
+caption {
+  caption-side: top;
+  padding: 10px;
+  font-weight: bold;
+}
+
+th,td {
+  border: 1px solid #716F6C;
+  padding: 8px 10px;
+  text-align: center;
 }
 
 code {
