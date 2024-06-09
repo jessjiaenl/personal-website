@@ -4,8 +4,13 @@ import Floor from '../components/Floor';
 function School() {
   return (
     <>
+      <h2 style={{position:"absolute", top:"5vh", left:"5vh"}}>
+        By "passionate about learning", I mean I enjoyed learning almost every concept in every course I've taken. <br/>
+        Even outside of STEM, I loved learning new instruments, literature, choreography, and creative activities <br/>
+        like writing, painting, and drawing all assets on this website.
+      </h2>
       <Floor/>
-      <table style={{position:"absolute", top:"5vh"}}>
+      <table style={{position:"absolute", top:"30vh"}}>
         <caption>Carnegie Mellon University</caption>
         <thead>
           <th scope="col">Course</th>

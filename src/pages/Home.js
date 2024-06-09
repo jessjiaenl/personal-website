@@ -50,9 +50,9 @@ function Home() {
     <>
       {/* <HeroBackdrop/> */}
       <Floor/>
-      <Me left={260}/>
-      <Hello left={700}/>
-      <Fence left={1100}/>
+      <Me left={230}/>
+      <Fence left={440}/>
+      <Hello left={690}/>
       <AboutMe left={1500}/>
       <Diploma left={2350}/>
       <Bench left={2300}/>
