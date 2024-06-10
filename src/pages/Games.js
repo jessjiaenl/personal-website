@@ -7,7 +7,7 @@ function Games() {
       <Floor/>
       <a href="/">
         <img src={process.env.PUBLIC_URL + "/assets/exit.svg"}
-          style={{height:"6vh", position:"absolute", top: "3vh", left:"10vh"}}/>
+          style={{height:"10vh", position:"absolute", top: "0vh", left:"10vh"}}/>
       </a>
 
       <a href="https://github.com/jessjiaenl/snowboarding" target="_blank">

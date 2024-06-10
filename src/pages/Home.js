@@ -50,8 +50,8 @@ function Home() {
     <>
       {/* <HeroBackdrop/> */}
       <Floor/>
-      {/* <img src={process.env.PUBLIC_URL + "/assets/rightArrow.svg"}
-           style={{height:"6vh", position:"absolute", top: "0vh", left:"00vh"}}/> */}
+      <img src={process.env.PUBLIC_URL + "/assets/rightArrow.svg"}
+           style={{height:"10vh", position:"absolute", top: "0vh", left:"5vh"}}/>
       <Me left="25vh"/> {/*230*/}
       <Fence left="48vh"/> {/*440*/}
       <Hello left="78vh"/> {/*690*/}
