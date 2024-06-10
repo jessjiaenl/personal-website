@@ -23,16 +23,22 @@ function Home() {
     }
 
     const scroll = (e) => {
-      if (e.clientX <= 0.1*window.innerWidth && dir != -1) {
+      var x = e.clientX, y = e.clientY;
+      if (x <= 0.1*window.innerWidth && 
+          y >= 0.1*window.innerHeight && y <= 0.9*window.innerHeight &&
+          dir != -1) {
           dir = -1;      
           intID = setInterval(doScroll, 10, dir)
 
 
-      } else if (e.clientX >= 0.9*window.innerWidth && dir != 1) {
+      } else if (x >= 0.9*window.innerWidth && 
+          y >= 0.1*window.innerHeight && y <= 0.9*window.innerHeight &&
+          dir != 1) {
           dir = 1;      
           intID = setInterval(doScroll, 10, dir)
     
-      } else if (0.1*window.innerWidth < e.clientX && e.clientX < 0.9*window.innerWidth) {
+      } else if ((0.1*window.innerWidth < x && x < 0.9*window.innerWidth) ||
+                  (y < 0.1*window.innerHeight || y > 0.9*window.innerHeight)) {
         dir = 0;
         // window.scrollTo(?,0); // recenter y coord
         clearInterval(intID);
@@ -54,7 +60,7 @@ function Home() {
            style={{height:"10vh", position:"absolute", top: "0vh", left:"5vh"}}/>
       <Me left="25vh"/> {/*230*/}
       <Fence left="48vh"/> {/*440*/}
-      <Hello left="78vh"/> {/*690*/}
+      <Hello left="82vh"/> {/*690*/}
       <AboutMe left="195vh"/> {/*1500*/}
       <Diploma left="300vh"/> {/*2350*/}
       <Bench left="295vh"/> {/*2300*/}
