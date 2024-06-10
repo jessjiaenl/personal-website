@@ -56,10 +56,10 @@ function Home() {
       <AboutMe left="195vh"/> {/*1500*/}
       <Diploma left="300vh"/> {/*2350*/}
       <Bench left="295vh"/> {/*2300*/}
-      <FallDet left="370vh"/> {/*2900*/}
-      <GPTutor left="370vh"/> {/*2900*/}
-      <Pillar left="450vh" objAbove="Reel"/> {/*3550*/}
-      <Pillar left="490vh" objAbove="Mail"/> {/*3900*/}
+      <FallDet left="380vh"/> {/*2900*/}
+      <GPTutor left="380vh"/> {/*2900*/}
+      <Pillar left="460vh" objAbove="Reel"/> {/*3550*/}
+      <Pillar left="500vh" objAbove="Mail"/> {/*3900*/}
       <MagicCircle left="540vh"/> {/*4300*/}
       <Fence left="560vh"/> {/*4500*/}
     </>
