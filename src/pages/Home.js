@@ -56,8 +56,8 @@ function Home() {
       <AboutMe left={1500}/>
       <Diploma left={2350}/>
       <Bench left={2300}/>
-      <FallDet left={3000}/>
-      <GPTutor left={3000}/>
+      <FallDet left={2900}/>
+      <GPTutor left={2900}/>
       <Pillar left={3550} objAbove="Reel"/>
       <Pillar left={3900} objAbove="Mail"/>
       <MagicCircle left={4300}/>
