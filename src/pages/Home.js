@@ -50,18 +50,18 @@ function Home() {
     <>
       {/* <HeroBackdrop/> */}
       <Floor/>
-      <Me left={230}/>
-      <Fence left={440}/>
-      <Hello left={690}/>
-      <AboutMe left={1500}/>
-      <Diploma left={2350}/>
-      <Bench left={2300}/>
-      <FallDet left={2900}/>
-      <GPTutor left={2900}/>
-      <Pillar left={3550} objAbove="Reel"/>
-      <Pillar left={3900} objAbove="Mail"/>
-      <MagicCircle left={4300}/>
-      <Fence left={4500}/>
+      <Me left="25vh"/> {/*230*/}
+      <Fence left="48vh"/> {/*440*/}
+      <Hello left="78vh"/> {/*690*/}
+      <AboutMe left="195vh"/> {/*1500*/}
+      <Diploma left="300vh"/> {/*2350*/}
+      <Bench left="295vh"/> {/*2300*/}
+      <FallDet left="370vh"/> {/*2900*/}
+      <GPTutor left="370vh"/> {/*2900*/}
+      <Pillar left="450vh" objAbove="Reel"/> {/*3550*/}
+      <Pillar left="490vh" objAbove="Mail"/> {/*3900*/}
+      <MagicCircle left="540vh"/> {/*4300*/}
+      <Fence left="560vh"/> {/*4500*/}
     </>
   );
 }

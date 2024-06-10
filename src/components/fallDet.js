@@ -9,7 +9,7 @@ function FallDet(props) {
                   // whileTap={{scale:1}}
                   />
       <motion.img src={process.env.PUBLIC_URL + "/assets/projectCards/fallDetCard.svg"}
-          style={{height:"10vh", position:"absolute", top:"55vh", left:`calc(${props.left}px + 35vh)`}}
+          style={{height:"10vh", position:"absolute", top:"55vh", left:`calc(${props.left} + 35vh)`}} //`calc(${props.left} + 35vh)`
           whileHover={{scale:1.1}}
           whileTap={{scale:1}}
           />
