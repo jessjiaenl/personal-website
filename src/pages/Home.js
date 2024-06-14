@@ -69,7 +69,7 @@ function Home() {
       <GPTutor left="380vh"/> {/*2900*/}
       <Pillar left="460vh" objAbove="Reel"/> {/*3550*/}
       <Pillar left="500vh" objAbove="Mail"/> {/*3900*/}
-      <MagicCircle left="540vh"/> {/*4300*/}
+      <MagicCircle left="560vh"/> {/*4300*/}
       <Fence left="560vh"/> {/*4500*/}
     </>
   );
