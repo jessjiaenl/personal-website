@@ -14,6 +14,7 @@ import GPTutor from '../components/GPTutor';
 import Diploma from '../components/Diploma';
 
 function Home() {
+  console.log("Home is called!")
   var dir = 0;
   var intID;
 
