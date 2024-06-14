@@ -2,10 +2,15 @@ import { motion } from "framer-motion";
 import Floor from '../components/Floor';
 
 function Games() {
+  const handleBackClick = (e) => {
+    e.preventDefault();
+    window.history.back();
+  };
+
   return (
     <>
       <Floor/>
-      <a href="/">
+      <a href="/" onClick={handleBackClick}>
         <img src={process.env.PUBLIC_URL + "/assets/exit.svg"}
           style={{height:"10vh", position:"absolute", top: "0vh", left:"10vh"}}/>
       </a>
@@ -61,7 +66,7 @@ function Games() {
           whileTap={{scale:1}}
           />
       </a>
-
+      
     </>
   );
 }

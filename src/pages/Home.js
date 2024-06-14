@@ -12,10 +12,9 @@ import HeroBackdrop from '../components/HeroBackdrop';
 import FallDet from '../components/fallDet';
 import GPTutor from '../components/GPTutor';
 import Diploma from '../components/Diploma';
-import Scroll from '../components/Scroll';
+
 
 function Home() {
-  console.log("Home is called!")
   var dir = 0;
   var intID;
 
@@ -56,8 +55,7 @@ function Home() {
 
   return (
     <>
-      {/* <HeroBackdrop/> */}
-      {/* <Scroll/> */}
+      {/* <HeroBackdrop/> */}        
       <Floor/>
       <img src={process.env.PUBLIC_URL + "/assets/rightArrow.svg"}
            style={{height:"10vh", position:"absolute", top: "0vh", left:"5vh"}}/>
