@@ -1,7 +1,7 @@
 function Floor() {
   return (
     <div style={{
-      width:"100vw",
+      width:"150vw",
       height:"10vh",
       position:"fixed",
       top:"90vh",
