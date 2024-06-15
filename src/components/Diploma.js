@@ -1,12 +1,6 @@
 import { motion } from "framer-motion";
 
 function Diploma(props) {
-  const handleBackClick = (e) => {
-    e.preventDefault();
-    window.history.back();
-  };
-  // go back with : href="/" onClick={handleBackClick}
-
   return (
     <>
       <a href="/school" > {/* href="/school" */}
