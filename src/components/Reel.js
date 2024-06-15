@@ -11,7 +11,8 @@ function Reel() {
   };
 
   return (
-    <a href={process.env.PUBLIC_URL + "/docs/Jia-En_Jessica_Lee_Resume.pdf"}
+    <a href="https://drive.google.com/drive/u/0/folders/166oql8LALeHnLVCmQHeAEdnP0lvO0vNV"
+          // {process.env.PUBLIC_URL + "/docs/Jia-En_Jessica_Lee_Resume.pdf"}
           target="_blank">
       <motion.img src={process.env.PUBLIC_URL + "/assets/reel.svg"}
         style={{height:"15vh", position:"absolute", top:"15vh", left:"4vh"}} // 4425
