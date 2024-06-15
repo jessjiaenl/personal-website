@@ -35,7 +35,7 @@ table {
   border-collapse: collapse;
   border: 2px solid #716F6C;
   font-size: 2vh;
-  white-space: nowrap;
+  white-space: normal;
   font-family: "Montserrat";
   font-weight: 450;
   line-height: 1.5;
@@ -72,8 +72,21 @@ code {
   justify-content: center;
 }
 
-/* .magicCircle{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+.dashboard {
+  display: grid;
+  width: calc(100vw - 35px);
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+@media all and (min-width: 800px) and (max-width: 1200px) {
+  .dashboard {
+      grid-template-columns: auto auto;
+  }   
+}
+
+@media all and (max-width: 800px) {
+  .dashboard {
+      grid-template-columns: auto;
+  }
+}

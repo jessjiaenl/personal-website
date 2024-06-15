@@ -1,7 +1,7 @@
 function CTTable() {
   return (
     <table>
-      <caption>Other Courses, Certificates, Awards</caption>
+      <caption>Other Courses, Certificates, and Awards</caption>
       <thead>
         <th scope="col">Course/Certificate/Award</th>
         <th scope="col">School</th>
@@ -20,6 +20,14 @@ function CTTable() {
           <td>Columbia University (Online)</td>
         </tr>
         <tr>
+          <td>University Honors</td>
+          <td>Carnegie Mellon University</td>
+        </tr>
+        <tr>
+          <td>Dean's List Highest Honors</td>
+          <td>Carnegie Mellon University</td>
+        </tr>
+        <tr>
           <td>Operations Management</td>
           <td>UOW College Hong Kong</td>
         </tr>
@@ -30,6 +38,10 @@ function CTTable() {
         <tr>
           <td>Economics</td>
           <td>UOW College Hong Kong</td>
+        </tr>
+        <tr>
+          <td>Dale Carnegie Course</td>
+          <td>Dale Carnegie & Associates, Inc.</td>
         </tr>
       </tbody>
     </table>
