@@ -54,10 +54,14 @@ function Home() {
 
   return (
     <>
-      {/* <HeroBackdrop/> */}        
+      {/* <HeroBackdrop/> */}    
       <Floor/>
+      <a href="/">
+        <img src={process.env.PUBLIC_URL + "/assets/door.svg"}
+             style={{height:"75vh", position:"absolute", top: "20vh", left:"-5vh"}}/>
+      </a>
       <img src={process.env.PUBLIC_URL + "/assets/rightArrow.svg"}
-           style={{height:"10vh", position:"absolute", top: "0vh", left:"5vh"}}/>
+           style={{height:"10vh", position:"absolute", top: "0vh", left:"5vh", transform:"scaleX(-1)"}}/>
       <HorrorMe left="25vh"/>
       <Fence left="48vh"/>
       <img src={process.env.PUBLIC_URL + "/assets/bloodyText.svg"}
