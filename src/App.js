@@ -7,6 +7,7 @@ import {
 import Games from "./pages/Games";
 import Home from "./pages/Home";
 import School from "./pages/School";
+import Hidden from "./pages/Hidden";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/school",
     element: <School/>
+  },
+  {
+    path: "/*",
+    element: <Hidden/>
   }
 ])
 

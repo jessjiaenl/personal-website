@@ -59,18 +59,18 @@ function Home() {
       <Floor/>
       <img src={process.env.PUBLIC_URL + "/assets/rightArrow.svg"}
            style={{height:"10vh", position:"absolute", top: "0vh", left:"5vh"}}/>
-      <Me left="25vh"/> {/*230*/}
-      <Fence left="48vh"/> {/*440*/}
-      <Hello left="82vh"/> {/*690*/}
-      <AboutMe left="195vh"/> {/*1500*/}
-      <Diploma left="300vh"/> {/*2350*/}
-      <Bench left="295vh"/> {/*2300*/}
-      <FallDet left="380vh"/> {/*2900*/}
-      <GPTutor left="380vh"/> {/*2900*/}
-      <Pillar left="460vh" objAbove="Reel"/> {/*3550*/}
-      <Pillar left="500vh" objAbove="Mail"/> {/*3900*/}
-      <MagicCircle left="560vh"/> {/*4300*/}
-      <Fence left="560vh"/> {/*4500*/}
+      <Me left="25vh"/>
+      <Fence left="48vh"/>
+      <Hello left="82vh"/>
+      <AboutMe left="195vh"/>
+      <Diploma left="300vh"/>
+      <Bench left="295vh"/>
+      <FallDet left="380vh"/>
+      <GPTutor left="380vh"/>
+      <Pillar left="460vh" objAbove="Reel"/>
+      <Pillar left="500vh" objAbove="Mail"/>
+      <MagicCircle left="560vh"/>
+      <Fence left="560vh"/>
     </>
   );
 }

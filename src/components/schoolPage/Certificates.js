@@ -8,6 +8,8 @@ function CTTable() {
       </thead>
       <tbody>
         <tr>
+          {/* <td><a href="https://childlike-yacht-75a.notion.site/Camera-and-Imaging-85a837c417a347e5b3d88ff41bd7e5f5?pvs=4" target="_blank">
+            Camera and Imaging</a></td> */}
           <td>Camera and Imaging</td>
           <td>Columbia University (Online)</td>
         </tr>
