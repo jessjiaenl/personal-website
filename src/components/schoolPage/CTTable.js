@@ -9,21 +9,64 @@ function CTTable() {
       <tbody>
         <tr>
         {/* <th scope="row">15213</th> */}
-          <td>Machine Learning Engineering</td>
-          <td>Ongoing</td>
+        <td><a href="https://drive.google.com/file/d/1c2sEMbkWgt7Km7vpIE6vzShpmzZkQ5ah/view?usp=sharing" target="_blank">
+        Machine Learning Engineering</a></td>
+        <td>A</td>
         </tr>
+
         <tr>
-          <td>Security and Privacy</td>
-          <td>Ongoing</td>
+        <td><a href="https://drive.google.com/file/d/1gMJY2svbQQ-QgzqFAWFN2Il_2hSpqDea/view?usp=sharing" target="_blank">
+        Virtual and Augmented Reality</a></td>
+        <td>A</td>
         </tr>
+
         <tr>
-          <td>Virtual and Augmented Reality</td>
+        <td><a href="https://drive.google.com/file/d/1ZeU_Bsm4HOBLx2YQNPMpJ_pLMETXZDJ6/view?usp=sharing" target="_blank">
+        Computer Vision</a></td>
+        <td>Ongoing</td>
+        </tr>
+
+        <tr>
+        <td><a href="https://drive.google.com/file/d/18NHSAFLQDqElP_GdNpdJV3BqGfprhfAe/view?usp=sharing" target="_blank">
+        Blockchain and Cryptocurrencies</a></td>
+        <td>Audit</td>
+        </tr>
+
+        <tr>
+          <td>HCI and Design</td>
+          <td>A</td>
+        </tr>
+
+        <tr>
+          <td>Red Teaming</td>
           <td>Ongoing</td>
         </tr>
+
+        <tr>
+          <td>Building Startup Systems</td>
+          <td>Ongoing</td>
+        </tr>
+
+        <tr>
+          <td>Remaking the City</td>
+          <td>Ongoing</td>
+        </tr>
+
+        <tr>
+          <td>Early Adopters</td>
+          <td>Ongoing</td>
+        </tr>
+
         <tr>
           <td>Product Studio</td>
+          <td>A</td>
+        </tr>
+
+        <tr>
+          <td>Startup Studio</td>
           <td>Ongoing</td>
         </tr>
+
       </tbody>
     </table>
   );
