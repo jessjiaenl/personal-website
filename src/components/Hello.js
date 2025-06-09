@@ -7,8 +7,8 @@ function Hello(props) {
       <h2 style={{position:"absolute", top: "38vh", left:props.left}}>
       Passionate about learning and interdisciplinary work, <br/>
       Jessica studied <b>Mathematics</b>, <b>Computer Science</b>, and <br/>
-      <b>Game Design</b> at Carnegie Mellon University and is currently <br/>
-      specializing in <b>Computer Science</b> at Cornell (Tech). <br/><br/>
+      <b>Game Design</b> at Carnegie Mellon University, specializing in <br/>
+      <b>Machine Learning</b>, <b>Computer Vision</b>, and <b>VR</b> at Cornell (Tech). <br/><br/>
 
       #AnalyticalSkills #FastLearner #Empath #Organizational <br/>
       #Interdisciplinary #Teamwork <br/>
