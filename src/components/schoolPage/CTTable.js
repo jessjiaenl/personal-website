@@ -21,9 +21,9 @@ function CTTable() {
         </tr>
 
         <tr>
-        <td><a href="https://drive.google.com/file/d/1ZeU_Bsm4HOBLx2YQNPMpJ_pLMETXZDJ6/view?usp=sharing" target="_blank">
+        <td><a href="https://drive.google.com/drive/u/0/folders/1HpJbh5LCuhxQu7jtWwoWd6LjNDHS4WmP" target="_blank">
         Computer Vision</a></td>
-        <td>Ongoing</td>
+        <td>A</td>
         </tr>
 
         <tr>
@@ -39,22 +39,22 @@ function CTTable() {
 
         <tr>
           <td>Red Teaming</td>
-          <td>Ongoing</td>
+          <td>A</td>
         </tr>
 
         <tr>
           <td>Building Startup Systems</td>
-          <td>Ongoing</td>
+          <td>A</td>
         </tr>
 
         <tr>
           <td>Remaking the City</td>
-          <td>Ongoing</td>
+          <td>A</td>
         </tr>
 
         <tr>
           <td>Early Adopters</td>
-          <td>Ongoing</td>
+          <td>A</td>
         </tr>
 
         <tr>
@@ -64,7 +64,7 @@ function CTTable() {
 
         <tr>
           <td>Startup Studio</td>
-          <td>Ongoing</td>
+          <td>A</td>
         </tr>
 
       </tbody>
